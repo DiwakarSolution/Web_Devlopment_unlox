@@ -1,4 +1,20 @@
 This is my journy for Web  Developer. I will Uploade all my code in this folder.
-#git init
-#git add .
-#git commit -n "file added"
+
+
+echo "# Web_Devlopment_unlox" >> README.md
+git init
+
+git add README.md
+git commit -m "first commit"
+
+git branch -M main
+git remote add origin https://github.com/DiwakarSolution/Web_Devlopment_unlox.git
+#other wise
+git remote set-url origin https://github.com/DiwakarSolution/Web_Devlopment_unlox.git
+
+git push -u origin main
+
+git remote -v
+
+git status
+
